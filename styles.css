@@ -32,11 +32,13 @@ ul {
 /* Header */
 
 .header {
-    padding: 20px 100px;
+    padding: 20px;
     background-color: #1F2937;
     display: flex;
-    justify-content: space-between;
     align-items: center;
+    justify-content: center;
+    gap: 290px;
+    
 }
 
 #logo-title {
