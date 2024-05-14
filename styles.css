@@ -44,7 +44,7 @@ ul {
     color: #F9FAF8;
 }
 
-.header li, .introduction-text p, .introduction-text button {
+.header li, .introduction-text p, .introduction-text button, .window .text {
     font-size: 18px;
     color: #E5E7EB;
 }
@@ -151,3 +151,39 @@ button {
 }
 
     /* Call To Action */
+
+.call-to-action .window {
+    display: flex;
+    align-items: center;
+    gap: 100px;
+    margin-left: 200px;
+    margin-right: 200px;
+    background-color: #3882F6;
+    border-radius: 10px;
+    padding: 50px 100px;
+}
+
+.window .text h2 {
+    color: #F9FAF8;
+    margin: 0;
+    font-size: 24px;
+}
+
+.window button {
+    color: #F9FAF8;
+    border: solid;
+    padding: 5px 30px;
+    font-size: 16px;
+    font-weight: bold;
+    flex-shrink: 0;
+}
+
+/* Footer */
+
+.footer {
+    display: flex;
+    justify-content: center;
+    background-color: #1F2937;
+    color: #F9FAF8;
+    padding: 30px;
+}
